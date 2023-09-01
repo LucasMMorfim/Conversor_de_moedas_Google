@@ -1,0 +1,119 @@
+body {
+  background-color: #282c36;
+
+  min-height: 100vh;
+  min-width: 100vw;
+
+  font-family: sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;  
+}
+
+.container {
+  color: #FFF;
+  
+  height: 300px;
+  width: 450px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nomeMoeda {
+  color: rgb(130, 131, 130);
+  
+  font-size: 18px;
+  
+  margin-bottom: 15px;
+}
+
+.valorFinal {
+  color: #FFF;
+  
+  font-size: 2.5rem;
+  
+  margin-bottom: 20px;
+}
+
+.dataAtual {
+  color: rgb(130, 131, 130);
+  
+  font-size: 0.8rem;
+
+  margin-bottom: 20px;
+}
+
+.moedaAconverter,
+.moedaConvertida {
+  width: 346px;
+  height: 43px;  
+  
+  border-radius: 5px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.currencyContainer {
+  height: 44.5px;
+  border: 1px solid rgb(130, 131, 130);
+  border-radius: 5px;
+}
+
+.icon {
+  font-size: 28px;
+  color: rgb(130, 131, 130);
+}
+
+.moedaAconverter input,
+.moedaConvertida input {  
+  background-color: transparent;
+  color: rgb(130, 131, 130);
+  
+  font-size: 1rem;   
+  
+  width: 80px;
+  height: 42px;
+
+  border: none;
+  outline: none;
+  padding-left: 15px;
+}
+
+.moedaAconverter select,
+.moedaConvertida select {
+  background-color: transparent;
+  color: rgb(130, 131, 130);
+
+  font-size: 15px; 
+  text-align: end;
+
+  height: 46px;
+  width: 217px;
+  border: none;
+  outline: none;
+  border-radius: 0 5px 5px 0;  
+}
+
+.moedaAconverter option,
+.moedaConvertida option {
+  background-color: #282c36;
+}
+
+.moedaAconverter.clicked, 
+.moedaConvertida.clicked{
+  outline: 2px solid white;
+}
+
+.moedaAconverter:focus,
+.moedaConvertida:focus {
+  outline: 2px solid white;
+}
+
+.moedaAconverter:hover,
+.moedaConvertida:hover {
+  outline: 2px solid white;
+}
